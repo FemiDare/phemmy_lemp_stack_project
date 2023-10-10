@@ -58,3 +58,15 @@ Next I proceeded to installing php on my ubuntu machine
 
 ![Screenshot 2023-10-07 180611](https://github.com/FemiDare/phemmy_lemp_stack_project/assets/140294606/667867c2-1174-41a0-b89e-07bb6b9fa8f8)
 
+Then I created a root web directory/folder using the command "sudo mkdir /var/www/myprojectLEMP and assigned ownership of the directory using $USER
+
+I then opened a new configuration file "myprojectLEMP" under the nginx sub-directory "sites-available" using the "nano" editor
+
+I had a problem saving the codes I had scripted into the file being I was getting a permission denied error. So I had to exit without saving and create and edit the file using the sudo command
+
+![Screenshot 2023-10-07 181412](https://github.com/FemiDare/phemmy_lemp_stack_project/assets/140294606/b20263c0-a3df-41a8-8c71-a7beb18641cf)
+
+![Screenshot 2023-10-07 182105](https://github.com/FemiDare/phemmy_lemp_stack_project/assets/140294606/fea7a20c-c53f-41e6-8e37-6220fddda6c7)
+
+![Screenshot 2023-10-07 182209](https://github.com/FemiDare/phemmy_lemp_stack_project/assets/140294606/f02d7d32-ba35-4dd4-8ec1-0168152a13e4)
+
