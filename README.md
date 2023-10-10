@@ -70,3 +70,32 @@ I had a problem saving the codes I had scripted into the file being I was gettin
 
 ![Screenshot 2023-10-07 182209](https://github.com/FemiDare/phemmy_lemp_stack_project/assets/140294606/f02d7d32-ba35-4dd4-8ec1-0168152a13e4)
 
+Then I had to activate my configuration by going to the nginx's sub-directory "sites-enabled" and linking the config file and then testing for syntax errors by running the command "sudo nginx -t"
+
+I encountered some issues being I had linked a file with the wrong name and had to do some manuevering to correct the mistake before getting a successful result from running the command "sudo nginx -t" 
+
+After that I unlinked the default site file and reloaded nginx using the command "sudo systemctl reload nginx"
+
+![Screenshot 2023-10-07 183044](https://github.com/FemiDare/phemmy_lemp_stack_project/assets/140294606/83be0849-543f-4f8d-b356-9baf8381c37f)
+
+Next we create a new landing page by echoing into a new index.html in our web directory and test it using our public ip address and and DNS name on the web browser 
+
+![Screenshot 2023-10-07 183153](https://github.com/FemiDare/phemmy_lemp_stack_project/assets/140294606/83192442-d82b-486c-ad7b-024addd29fad)
+
+![Screenshot 2023-10-07 183222](https://github.com/FemiDare/phemmy_lemp_stack_project/assets/140294606/a52a0f00-450f-4d89-aa9e-faf4e935eb82)
+
+![Screenshot 2023-10-07 183430](https://github.com/FemiDare/phemmy_lemp_stack_project/assets/140294606/4dfc60ff-4b56-4c7f-862d-ec22d2218ec2)
+
+I then created a test php file in my directory root named "info.php" pasted an info code in the file and tested it on my web browser
+
+![Screenshot 2023-10-07 183603](https://github.com/FemiDare/phemmy_lemp_stack_project/assets/140294606/46a6920b-2594-47b5-8d05-6574c2e28de0)
+
+![Screenshot 2023-10-07 183733](https://github.com/FemiDare/phemmy_lemp_stack_project/assets/140294606/33298725-723c-4002-9f56-15823113cb77)
+
+Thereafter I proceeded to attempt creating a database in mysql 
+
+![Screenshot 2023-10-07 185027](https://github.com/FemiDare/phemmy_lemp_stack_project/assets/140294606/d9ec51d6-87a2-40b0-af90-0cf2fef1a1fd)
+
+![Screenshot 2023-10-07 190144](https://github.com/FemiDare/phemmy_lemp_stack_project/assets/140294606/38c693a1-1df8-4867-b1bb-83623ff11511)
+
+![Screenshot 2023-10-07 193350](https://github.com/FemiDare/phemmy_lemp_stack_project/assets/140294606/8e3ea7bc-e233-4d1d-82f8-96053199ad17)
